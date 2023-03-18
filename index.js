@@ -67,7 +67,7 @@ async function getWeather(){
 
 async function getFiveDaysWeather(){
     const city = document.querySelector("#search-input").value
-    const fiveDaysContainer = document.querySelector("#containerFiveDays")
+    const fiveDaysContainer = document.querySelector("#fivedays-container")
     fiveDaysContainer.innerHTML = ""
 
     const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=ac15e274b11428b3a6fadff93d378d66`
