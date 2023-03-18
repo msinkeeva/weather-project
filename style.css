@@ -1,0 +1,140 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://img.freepik.com/free-photo/sunshine-clouds-sky-during-morning-background-blue-white-pastel-heaven-soft-focus-lens-flare-sunlight-abstract-blurred-cyan-gradient-of-peaceful-nature-open-view-out-windows-beautiful-summer-spring_1253-1092.jpg?w=900&t=st=1678608580~exp=1678609180~hmac=ead90db5eeadd6390684daec4954b145b8ed290971ca96dcdb9333d5431adfa8");
+    background-size:cover;
+}
+header{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.search-block{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    opacity: 0.6;
+    font-size: 20px;
+    border: none;
+    color: #07514d;
+    border-radius: 4px;
+}
+
+#search-button{
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 3px 25px;
+}
+#search-button:hover{
+    background-color: #fcdb03;
+    transition: 1s;
+    cursor: pointer;
+}
+#weather-container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 30px 90px;
+}
+.weather-block{
+
+color: #000000;
+padding: 15px 30px 15px 100px;
+border-radius: 8px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+.weather-data{
+    color:  #ffffff; 
+    margin-left: 5px;
+}
+.city-name{
+    color: #fcf63d;
+    font-size: 30px;
+    font-weight: bold;
+}
+.weather-block-header{
+color: #fcf63d;
+}
+.city-info{
+    color: #ffffff8f;
+    font-size: 13px;
+}
+#weather-icon{
+ width: 60%;
+ margin: 10px;
+   
+}
+.weather-characteristics{
+   display: flex; 
+flex-direction: row;
+   width: 120%;
+   height: 200px;
+   margin-top: 20px;
+
+}
+.row{
+    display: flex; 
+   flex-direction: row;
+   padding-top: 10px;
+}
+.part1{
+    padding: 10px 40px 0 0;
+}
+.part2{
+    padding: 10px 0 0 0;
+}
+.block2{
+    display: flex; 
+justify-content: center;
+}
+.buttonFiveDays{
+
+    color:#fcf63d;
+}
+.buttonFiveDays:hover{
+    opacity: 0.7;
+    transition: 1s;
+    cursor: pointer;
+}
+#containerFiveDays{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.weather-block-day{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 15px;
+    width: 15%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #81d4f7;
+    font-size: 14px;
+}
+.day-icon{
+    width: 70%;
+
+    margin-top: 10px;
+    margin-left: 25%;
+ 
+}
+.day-block-header{
+   text-align: center;
+color:#fcf63d;
+
+}
+
+
+
+
